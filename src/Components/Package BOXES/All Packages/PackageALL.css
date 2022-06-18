@@ -1,0 +1,21 @@
+.PackageSection h2 { 
+color: #000000;
+font-family: "Montserrat",Sans-serif;
+font-weight: 800;
+font-size:  38px;
+}
+
+.PackageSection {
+    box-shadow: none !important;
+    
+}
+.nav .nav-tabs {
+    box-shadow: none !important;
+}
+.tab-content {
+    background-color: #ffffff;
+    box-shadow: none !important;
+}
+.PackageSection .container {
+     background-color: #ffffff;
+ }

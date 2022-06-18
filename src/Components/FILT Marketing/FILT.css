@@ -1,0 +1,62 @@
+.FILT_Heading {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+.FILT_Paragraph {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 16px;
+}
+.FILT_Boxes {
+    border-radius: 6px;
+    width: auto;
+    box-shadow: 1px 1px #e9e9e9;
+    height: 19em;
+    border-top: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+}
+
+@media (max-width: 1200px) {
+    .FILT_Boxes {
+        height: 24em;
+        width: auto;
+
+    }
+    
+  }
+
+  @media (max-width: 991px) {
+    .FILT_Boxes {
+        height: 14em;
+        width: auto;
+    }
+    
+  }
+
+  @media (max-width: 570px) {
+    .FILT_Boxes {
+        height: 15em;
+        width: auto;
+    }
+    
+  }
+
+  @media (max-width: 430px) {
+    .FILT_Boxes {
+        height: 16em;
+        width: auto;
+    }
+    
+  }
+  @media (max-width: 376px) {
+    .FILT_Boxes {
+        height: 17em;
+        width: auto;
+    }
+    
+  }
+

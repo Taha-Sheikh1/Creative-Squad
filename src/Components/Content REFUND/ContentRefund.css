@@ -1,0 +1,23 @@
+.ContentRefund h2 {
+    color: #7A7A7A;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.ContentRefund h1 {
+    color: #F40202;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.ContentRefund h2 span {
+    color: black;
+    font-family: 'Montserrat', Sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}

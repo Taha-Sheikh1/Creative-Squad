@@ -1,0 +1,25 @@
+.TermsContent h4 {
+    color: #EC0000;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.TermsContent h2 {
+    color: #7A7A7A;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.TermsContent h1 {
+    color: #F40202;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
