@@ -1,0 +1,72 @@
+
+.CTA {
+font-family: "Montserrat",Sans-serif;
+font-size: 17px;
+font-weight: 400;
+text-transform: none;
+font-style: normal;
+text-decoration: none;
+line-height: 1em;
+letter-spacing: 0px;
+color: white;
+border-style: solid;
+border-color: #000;
+border-radius: 5px 5px 5px 5px;
+padding: 12px 40px 12px 40px;  
+text-decoration: none;
+ 
+}
+.CTA:hover {
+color: white;
+}
+.ContentTitle {
+    font-family: "Montserrat",Sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+}
+.ContentParagraph {
+    color: #000;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+@media (max-width: 991px)  {
+    .CTA {
+        padding: 8px 20px 8px 20px;  
+    }
+    .ContentTitle {
+        font-size: 38px;
+    }
+    .ContentImage {
+        display: none;
+    }
+}
+
+@media (max-width: 567px)  {
+    .ContentTitle {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 471px)  {
+    .ContentTitle {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 441px)  {
+    .ContentTitle {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 412px)  {
+    .ContentTitle {
+        font-size: 24px;
+    }
+    .ContentParagraph {
+        font-size: 15px;
+    }
+}
+
+

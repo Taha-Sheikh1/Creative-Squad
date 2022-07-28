@@ -1,0 +1,102 @@
+.clients{
+font-size: 11px ;
+font-family: "Montserrat", Sans-serif;
+font-weight: 500;
+}
+.revenue {
+ font-size: 15px;
+ font-family: "Montserrat", Sans-serif;
+ font-weight: 700;
+}
+/* .trustpilot-logo {
+    width: 50px !important;
+    height: 40px
+} */
+.review-icon {
+ width: 56px;
+}
+.fb {
+    font-size: 24px;
+    color: white;
+    margin-left: 1.5rem !important;
+}
+.fb:hover {
+    color: #cf2e2e;
+}
+.insta {
+    font-size: 24px;
+    color: white;
+}
+.insta:hover {
+    color: #cf2e2e;
+}
+.twitter {
+    font-size: 24px;
+    color: white;
+}
+
+.twitter:hover {
+    color: #cf2e2e;
+}
+.bars {
+    font-size: 35px;
+    margin-top: 4px;
+}
+.TopBar {
+    height: 3.4em;
+    background-color: #000000;
+    align-items: center;
+}
+
+/* Custom Breakpoints */
+
+  
+@media only screen and (max-width: 1007px) {
+    .fb {
+        font-size: 20px;
+        display: none;
+    }
+    .insta {
+        font-size: 20px;
+        display: none;
+    }
+    .twitter {
+        font-size: 20px;
+        display: none;
+    } 
+    .review-icon {
+        width: 63px;
+       }
+}
+
+@media only screen and (max-width: 460px) {
+    .bars {
+        font-size: 36px;
+    }
+    .clients{
+        font-size: 11px ;
+        
+        }
+        .revenue {
+         font-size: 16px;
+         
+        }
+        .review-icon {
+            display: none;
+        }
+}
+
+@media only screen and (max-width: 360) {
+    .bars {
+        font-size: 30px;
+    }
+    .clients{
+        font-size: 9px ;
+        
+        }
+        .revenue {
+         font-size: 13px;
+         
+        }
+}
+ 

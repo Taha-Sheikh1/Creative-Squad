@@ -1,0 +1,51 @@
+.Title {
+    color: #000;
+    margin: 0px 0px 20px 0px;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.Paragraph {
+    color: #000;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Mission {
+    padding: 0px 0px 0px 0px;
+    color: #000;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.Vision {
+    padding: 0px 0px 0px 0px;
+    color: #000;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+} 
+
+@media (max-width: 1200px) {
+  
+    .Title {
+        color: #000;
+        margin: 0px 0px 20px 0px;
+        font-family: "Montserrat",Sans-serif;
+        font-size: 38px;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 991px) {
+.SquadImage{
+  display: none;
+}
+}
+

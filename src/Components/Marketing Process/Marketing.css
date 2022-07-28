@@ -1,0 +1,51 @@
+.MarketingProcess h3 {
+    font-family: "Montserrat",Sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+ }
+.MarketingProcess h2 {
+    color: #000;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+.MarketingProcess span {
+    color: #F40202;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+ .MarketingProcess p {
+    color: #000;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+ }
+ .icon {
+   color: #F40202;
+   background-color: white;
+}
+.fa {
+    display: inline-block;
+    border-radius: 90px;
+    box-shadow: 0px 0px 3px #888;
+    padding: 0.5em 0.5em;
+    color: #F40202;
+    transition: 0.2s;
+}
+.fa:hover {
+    background-color: #F40202;
+    color: #fff;
+    transition: 0.2s;
+}
+

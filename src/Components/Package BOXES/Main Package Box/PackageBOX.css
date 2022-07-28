@@ -1,0 +1,136 @@
+.Package .row {
+    padding-top: 40px;
+  }
+  /* 0px 0px 30px rgba(73, 78, 92, 0.15) */
+  .Package .Packagebox {
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    background: #fff;
+    text-align: center;
+    position: relative;
+  }
+  .ackage .section-bg {
+    box-shadow: none !important;
+  }
+ 
+  .section-title h2{
+      color: #000000 !important;
+      font-family: "Montserrat",Sans-serif !important;
+    font-weight: 800 !important;
+  }
+  
+  .Package .featured-badge {
+    display: inline-block;
+    position: absolute;
+    top: -11px;
+    left: calc(50% - 49px);
+    background: #F50000;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50px;
+    padding: 4px 20px 5px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Montserrat",Sans-serif;
+    font-weight: 500;
+  }
+  .Package h3 {
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-family: "Montserrat",Sans-serif;
+    font-weight: 500;
+  }
+  .Package h4 {
+    font-size: 46px;
+    color: #000000;
+    /* font-weight: 400; */
+    font-family: "Montserrat",Sans-serif;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  .Package h4 span {
+    color: #bababa;
+    font-size: 18px;
+    display: block;
+  }
+  .Package ul {
+    padding: 0;
+    list-style: none;
+    color: #999;
+    text-align: left;
+    line-height: 20px;
+  }
+  .Package ul li {
+    padding-bottom: 12px;
+  }
+ 
+  .Package .Avail-Now {
+    background: #000000;
+    display: inline-block;
+    padding: 6px 30px;
+    border-radius: 20px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat",Sans-serif;
+    transition: 0.2s;
+    text-decoration: none;
+  }
+  .Package .Avail-Now:hover {
+    background: #F50000;
+  }
+  .Package .featured {
+    z-index: 10;
+    margin: -30px -5px 0 -5px;
+    border: 1px solid #F50000;
+  }
+  .Package .featured .Avail-Now {
+    background: #db0000;
+  }
+  .Package .featured .Avail-Now:hover {
+    background: #F50000;
+  }
+
+  .content {
+    max-height: 200px !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 60px;
+}
+#Packagebox .featured {
+  max-height: 280px !important;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+  @media (max-width: 992px) {
+    .Package .Packagebox {
+      max-width: 60%;
+      margin: 0 auto 30px auto;
+    }
+  }
+  @media (max-width: 767px) {
+    .Package .Packagebox {
+      max-width: 80%;
+      margin: 0 auto 30px auto;
+    }
+  }
+  @media (max-width: 420px) {
+    .Package .Packagebox {
+      max-width: 100%;
+      margin: 0 auto 30px auto;
+    }
+  }
+  

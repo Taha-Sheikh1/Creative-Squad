@@ -1,0 +1,55 @@
+.Perks h1 {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.Perks h2 {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Perks p {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+     
+}
+.PerksContentBox {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    border-left: 1px solid rgb(210, 210, 210);
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+.PerksContentBox2 {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    border-left: 1px solid rgb(210, 210, 210);
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+.PerksContentBox3 {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    border-right: 1px solid rgb(210, 210, 210);
+    border-left: 1px solid rgb(210, 210, 210);
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+@media (max-width:991px) {
+
+    .PerksContentBox {
+        border-right: 1px solid rgb(210, 210, 210);
+    }
+
+    .PerksContentBox2 {
+        border-right: 1px solid rgb(210, 210, 210);
+    }
+    
+    .PerksContentBox3 {
+        border-right: 1px solid rgb(210, 210, 210);
+    }
+}

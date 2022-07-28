@@ -1,0 +1,39 @@
+.Info {
+    padding: 0px 0px 0px 0px;
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.InfoBox {
+    width: auto;
+    height: 10em;
+    background-color: #F6F6F6;
+    box-shadow: 1px 1px 3px 1px #c9c9c9;
+    cursor: pointer;
+}
+.InfoBox:hover {
+    box-shadow: 0px 0px 0px 0px #000000;
+} 
+@media (max-width: 1200px) {
+    .Info {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 767px) {
+    .Info {
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 540px) {
+    .Info {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+

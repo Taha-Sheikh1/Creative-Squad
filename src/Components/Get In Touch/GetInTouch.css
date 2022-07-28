@@ -1,0 +1,171 @@
+#Get-in-touch h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+#Get-in-touch h4 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+#Get-in-touch {
+    width: auto;
+    height: 230px;
+    background: #fff;
+    background-image: url('./get-in-touch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #4b4f58;
+}
+
+.Btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.Tel {
+    font-family: 'Montserrat', sans-serif;
+   transition: 0.2s;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0px;
+    fill: #fff;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 12px 30px 12px 30px;
+    text-decoration: none;
+}
+.Tel:hover {
+    background-color: #f40202;
+   border: none;
+   transition: 0.2s;
+   border: 1px solid #f40202;
+   color: #fff;
+}
+.Talk {
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0px;
+    fill: #fff;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 12px 30px 12px 30px;
+}
+.Talk:hover {
+    background-color: #f40202;
+   border: none;
+   transition: 0.3s;
+   border: 1px solid #f40202;
+}
+
+
+@media (max-width: 991px) {
+  .Talk {
+    font-size: 14px;
+    padding: 10px 28px 10px 28px;
+  }
+  .Tel {
+    font-size: 14px;
+    padding: 10px 28px 10px 28px;
+  }
+  #Get-in-touch h1 {
+    font-size: 36px;
+  }
+  #Get-in-touch h4 {
+    font-size: 20px;
+  }
+  }
+
+  @media (max-width: 767px) {
+    .Talk {
+      font-size: 13px;
+      padding: 8px 26px 8px 26px;
+    }
+    .Tel {
+      font-size: 13px;
+      padding: 8px 26px 8px 26px;
+    }
+    #Get-in-touch h1 {
+      font-size: 34px;
+    }
+    #Get-in-touch h4 {
+      font-size: 18px;
+    }
+    }
+    @media (max-width: 500px) {
+        .Talk {
+          font-size: 11px;
+          padding: 7px 20px 7px 20px;
+        }
+        .Tel {
+          font-size: 11px;
+          padding: 7px 20px 7px 20px;
+        }
+        #Get-in-touch h1 {
+          font-size: 31px;
+        }
+        #Get-in-touch h4 {
+          font-size: 15px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .Talk {
+          font-size: 11px;
+          padding: 7px 18px 7px 18px;
+        }
+        .Tel {
+          font-size: 11px;
+          padding: 7px 18px 7px 18px;
+        }
+        #Get-in-touch h1 {
+          font-size: 28px;
+        }
+        #Get-in-touch h4 {
+          font-size: 13px;
+        }
+    }
+
+    @media (max-width: 350px) {
+        .Talk {
+          font-size: 11px;
+          padding: 7px 18px 7px 18px;
+          margin-left: 17px;
+        }
+        .Tel {
+          font-size: 11px;
+          padding: 7px 18px 7px 18px;
+        }
+        #Get-in-touch h1 {
+          font-size: 25px;
+        }
+        #Get-in-touch h4 {
+          font-size: 11px;
+        }
+    }
+
+
+
+
+
+    

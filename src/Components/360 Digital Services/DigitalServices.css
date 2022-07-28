@@ -1,0 +1,54 @@
+.DigitalServices {
+    color: #F40000;
+    font-size: 43px;
+    font-weight: 900;
+}
+.Solid {
+    border-top: 2px solid #F20000;
+    text-align: center;
+    
+}
+.Services {
+    color: #000000;
+    font-size: 43px;
+    font-weight: 800;
+}
+.ServicesTitle {
+    padding: 0px 0px 0px 0px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.ServicesPara {
+    color: #565656;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.ServicesBtn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    fill: #000000;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #000000;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px 20px 8px 20px;
+    transition: 0.2s;
+}
+.ServicesBtn:hover {
+    color: #ffffff;
+    background-color: #F40202;
+    border-color: #F40202;
+    transition: 0.2s; 
+
+}
+
+
+

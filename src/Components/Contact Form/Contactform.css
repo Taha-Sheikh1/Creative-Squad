@@ -1,0 +1,185 @@
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: 'Montserrat', Sans-serif;
+    font-weight: 500;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: 'Montserrat', Sans-serif;
+    font-weight: 500;
+}
+
+.ErrorClasses {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat',Sans-serif;
+    color: #F40202;
+}
+ 
+#message {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    height: 10rem;
+    color: #000000;
+    font-family: 'Montserrat', Sans-serif;
+    font-weight: 500;
+}
+
+#message:focus {
+    outline: none;
+}
+ 
+.ContactHeading {
+    color: #000000;
+    font-family: 'Montserrat',Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.ContactHeading span {
+    color: #FF0000;
+    font-family: 'Montserrat',Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.ContactParagraph {
+    color: #000000;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+
+.Contactbtn{
+    background-color: #FFFFFF;
+    color: #F40202;
+    border-color: #F40202;
+    font-family: 'Montserrat', Sans-serif;
+    font-weight: 500;
+    border-style: solid;
+    font-size: 17px;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 25px 10px 25px;
+    transition: 0.2s;
+}
+.Contactbtn:hover {
+    background-color: #F40202;
+    color: #ffffff;
+    border-color: #F40202;
+    transition: 0.2s;
+}
+
+@media (max-width: 991px) {
+    .ContactImage {
+        display: none;
+    }
+}
+
+.react-tel-input {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.2rem !important;
+    box-shadow: none !important;
+}
+
+.react-tel-input .form-control {
+    width: 100% !important; 
+    margin: 4px 0 !important;
+    color: #000000 !important;
+    font-family: 'Montserrat', Sans-serif !important;
+    font-weight: 500 !important;
+    box-sizing: border-box !important;
+    box-shadow: none !important;
+}
+
+ 
+@media (max-width: 767px) {
+    .ContactHeading, .ContactHeading span {
+        font-size: 37px;
+    }
+ }
+
+ 
+ @media (max-width: 544px) {
+    .ContactHeading, .ContactHeading span {
+        font-size: 33px;
+    }
+    .ContactParagraph {
+        font-size: 18px;
+    }
+ }
+
+ @media (max-width: 494px) {
+    .ContactHeading, .ContactHeading span {
+        font-size: 30px;
+    }
+    .ContactParagraph {
+        font-size: 16px;
+    }
+ }
+
+ @media (max-width: 459px) {
+    .ContactHeading, .ContactHeading span {
+        font-size: 28px;
+    }
+    .ContactParagraph {
+        font-size: 14px;
+    }
+ }
+
+ @media (max-width: 435px) {
+    .ContactHeading, .ContactHeading span {
+        font-size: 26px;
+    }
+    .ContactParagraph {
+        font-size: 13px;
+    }
+ }
+
+ @media (max-width: 412px) {
+    .ContactHeading, .ContactHeading span {
+        font-size: 24px;
+    }
+    .ContactParagraph {
+        font-size: 12px;
+    }
+ }
+ @media (max-width: 388px) {
+    .ContactHeading, .ContactHeading span {
+        font-size: 23px;
+    }
+    .ContactParagraph {
+        font-size: 11px;
+    }
+ }
+
+ @media (max-width: 380px) {
+    .ContactHeading, .ContactHeading span {
+        font-size: 21px;
+    }
+    .ContactParagraph {
+        font-size: 11px;
+    }
+ }

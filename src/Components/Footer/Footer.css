@@ -1,0 +1,133 @@
+#footer {
+    color: #fff;
+    font-size: 15px;
+    background: rgb(5, 5, 5);
+    text-decoration: none;
+  }
+  .footer-links .divider {
+    margin: 0 auto;
+    margin-left: 0;
+    width: 15%;
+    height: 0.3em;
+    background-color: #f40202;
+  }
+
+  .social-links .divider {
+    margin: 0 auto;
+    margin-left: 0;
+    width: 15%;
+    height: 0.3em;
+    background-color: #f40202;
+  }
+
+  #footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #000000;
+  }
+  #footer .footer-top .footer-contact {
+    margin-bottom: 20px;
+  }
+  #footer .footer-top .footer-contact h3 {
+    color: #fff;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+  
+  }
+  
+  #footer .footer-top h4 {
+    color: #fff;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1em;
+    margin: 0px 0px 0px 0px;
+
+  }
+  #footer .footer-top .footer-links {
+    margin-bottom: 40px;
+  }
+  .BtnFooter {
+    font-family: "Montserrat",Sans-serif;
+    font-weight: 500;
+    /* font-size: 20px; */
+    background-color: #f40202;
+    border-radius: 0px 0px 0px 0px;
+    color: #ffffff;
+    padding: 10px 25px 10px 25px;
+    transition: 0.2s;
+    border: none;
+  }
+  .BtnFooter:hover {
+    background: white;
+    color: #f40202;
+    transition: 0.2s;
+  }
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    line-height: 2.3;
+    display: inline;
+    text-decoration: none;
+    font-family: "Montserrat",Sans-serif;
+  }
+  #footer .footer-top .footer-links ul a:hover {
+    color: #f40202;
+  }
+
+  .ActiveClass {
+    color: #f40202 !important;
+  }
+  .defaultClass {
+    color: #fff !important;
+  }
+
+  #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #fff;
+  }
+  #footer .social-links a {
+    font-size: 32px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.08);
+    color: #fff;
+    line-height: 1;
+    padding: 11px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+ 
+.fa-Foot {
+  color: #f40202;
+}
+
+.Fb {
+  color: #fff;
+}
+.Insta {
+  color: #fff;
+} 
+.Twt {
+  color: #fff;
+}
+.Fb:hover {
+  color: #f40202;
+}
+.Insta:hover {
+  color: #f40202;
+}
+.Twt:hover {
+  color: #f40202;
+}

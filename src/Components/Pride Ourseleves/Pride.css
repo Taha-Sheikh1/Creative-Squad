@@ -1,0 +1,49 @@
+.btns {
+    border: 1px solid #f40202;
+    padding: 5px 15px 5px 15px;
+    background-color: #fff;
+    color: #f40202;
+    border-radius: 4px;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.btns a {
+    text-decoration: none;
+}
+.btns:hover {
+    color: #ffffff;
+    background-color: #f40202;
+    border: 1px solid #f40202;  
+    transition: 0.2s;
+}
+.Heading {
+    padding: 0px 0px 0px 0px;
+    color: #000000;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.Paragraph{
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+}
+.boxes {
+    box-shadow: 1px 1px #e7e7e7;
+    border-radius: 5px;
+    height: 18em;
+    width: auto;
+    border-left: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+}
+@media (max-width: 991px) {
+    .boxes {
+        height: 17.5em;
+    }
+}
+

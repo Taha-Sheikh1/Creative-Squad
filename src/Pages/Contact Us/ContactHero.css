@@ -1,0 +1,149 @@
+#ContactHero {
+    width: auto;
+    height: 460px;
+    background: #fff;
+    padding-top: 82px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-color: #4b4b4b;
+    background-blend-mode: overlay;
+    background-image: url('./Conatct-us-Page-banner.png');
+  }
+
+  #ContactHero h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  @media (max-width: 991px) {
+    #ContactHero {
+      height: 394px;
+    }
+    #ContactHero .animated {
+      -webkit-animation: none;
+      animation: none;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+    #ContactHero {
+      height: 386px;
+    }
+    #ContactHero h1 {
+      font-size: 40px;
+      line-height: 36px;
+      text-align: center;
+    }
+  
+  }
+
+  @media (max-width: 575px) {
+    #ContactHero {
+      height: 359px;
+    }
+    #ContactHero h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+
+  }
+
+  @media (max-width: 464px) {
+    #ContactHero h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+  }
+
+  @media (max-width: 374px) {
+    #ContactHero h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+  }
+
+  @media (max-width: 350px) {
+    #ContactHero h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+  }
+ 
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+ 
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f9f9fa;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #5f687b;
+    position: relative;
+    z-index: 2;
+  }
+  .section-title span {
+    position: absolute;
+    top: 30px;
+    color: #f0f1f3;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  .section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+  }
+  
